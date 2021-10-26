@@ -8,6 +8,7 @@
 [Solution&#x219D;](./simple-calculator.c)
 
 2. Pass two parameters to function as(start and end), and display all prime numbers between two Intervals.
+[Solution&#x219D;](./prime.c)
 
 3. Create class STORE to keep track of Products (Product Code, Name, and price). Display menu of all products to the user. Generate bill as per order.
 
