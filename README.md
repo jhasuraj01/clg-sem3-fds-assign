@@ -13,6 +13,7 @@
 3. Create class STORE to keep track of Products (Product Code, Name, and price). Display menu of all products to the user. Generate bill as per order.
 
 4. Accept a string and change the case of each character of the string. Example “THIs Is a C Program” changes to “thiSiS A c pROGRAM”.
+[Solution&#x219D;](./toggle-case.c)
 
 5. Accept a string from the user and perform the following string operations –
     1. Calculate the length of string
