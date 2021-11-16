@@ -66,18 +66,11 @@ int union_set(int A[], int B[], int C[], int a, int b) {
 }
 
 int intersection_set(int A[], int B[], int C[], int a, int b) {
-    int c = 0;
-    for (int i = 0; i < a; ++i)
-    {
-        for (int j = 0; j < b; ++j)
-        {
-            if (A[i] == B[j])
-            {
-                C[c++] = A[i];
-                break;
-            }
-        }
-    }
+    int AmB[100];
+
+    int amb = difference_set(A, B, AmB, a, b);
+    int c = difference_set(A, AmB, C, a, amb);
+
     return c;
 }
 
@@ -140,7 +133,7 @@ void output_set(int A[], int n) {
         printf("%d, ", A[i]);
     }
 
-    if (n > 1)
+    if (n > 0)
     {
         printf("%d }", A[n-1]);
     }
