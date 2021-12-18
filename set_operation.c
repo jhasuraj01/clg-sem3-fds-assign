@@ -17,7 +17,7 @@ int main()
     printf("2. Intersection\n");
     printf("3. Difference\n");
     printf("4. Symmetric\n");
-    printf("Enter the Choice: \n");
+    printf("Enter the Choice: ");
     scanf("%d", &ch);
 
     a = input_set(A, 'A');
